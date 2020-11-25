@@ -1,0 +1,180 @@
+/*This is my 377 FoCo Web Page Project using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ---------- This is the beginning of my 377 FoCo Web Page Project ------------ */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+	background-image: url("foco-bg.jpg") ;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: left;
+	
+}
+
+.center {
+    width: 1000px;
+	padding: 2%;
+    margin: 100px auto;
+	
+	text-align: center;
+	border: hidden;
+}
+
+   
+#logo {
+    margin-bottom: 16px;
+	border: hidden;
+	text-align: center;
+}
+
+#Diamonds img:Diamond.png {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+  }
+
+
+
+h1 {
+	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+	font-family: sofia-pro,sans-serif;
+	font-weight: 00;
+	font-style: normal;
+	font-size: 1.75em;
+	margin: 0px auto 10px auto;
+	padding: 40px 0px;
+	color: #fff;
+	letter-spacing: 3px;
+}
+
+h2 {
+	 /* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+	 font-family: sofia-pro,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1.5em;
+    line-height: 1.4;
+    color: #fff;
+    padding: 0px 0px;
+	margin: -40px auto 0px auto;
+	letter-spacing: 1.25px;
+	padding-bottom: 55px;
+	text-decoration: none;
+	border-bottom:#EFA693 .1em solid ;
+}
+
+p1 {
+	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */		;
+	font-family: sofia-pro,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1.2em;
+    line-height: 1.6;
+	color: #fff;
+	
+}
+
+nav{
+	font-family: sofia-pro,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1.25em;
+	width: 1000px;
+	margin: 0 auto;
+	border:hidden;
+	border-width: 3px 0;
+	text-align: center;
+	margin-top: 2em; 
+	letter-spacing: 1px;
+}
+
+nav li{
+	display: inline;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+	font-weight: 300;
+	margin: 100 auto;
+	padding: 0px 10px;
+	word-wrap: normal;
+	display: inline-block;
+}
+
+a:hover{
+	font-family: sofia-pro,sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 1.1em;
+	color:#EFA693;
+	background:none;
+	padding-bottom: 5px;
+	text-decoration: none;
+	border-bottom:#EFA693 .13em solid ;
+	text-underline-position: 100em;
+
+}
+
+    
+    
+
